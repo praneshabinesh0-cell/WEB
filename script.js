@@ -136,11 +136,10 @@ contactForm.addEventListener("submit", event => {
     const service = document.getElementById("service").value;
     const projectMessage = document.getElementById("message").value;
 
-    // Replace this with YOUR WhatsApp number.
-    const whatsappNumber = "919876543210";
+    const whatsappNumber = "917708111862";
 
     const message =
-`Hello Webzo Studio,
+`Hello,
 
 I would like to enquire about a website project.
 
