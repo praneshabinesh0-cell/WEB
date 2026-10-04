@@ -289,16 +289,44 @@ img { max-width: 100%; }
         #0b1727;
 }
 
+/* ==================================
+   WEBZO LOGO + NAME
+================================== */
+
 .mini-nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.mini-logo {
-    width: 60px;
-    height: 10px;
-    border-radius: 10px;
-    background: var(--primary);
+.mini-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mini-brand-logo {
+    width: 48px;
+    height: 48px;
+
+    object-fit: contain;
+
+    background: #ffffff;
+
+    border-radius: 8px;
+
+    display: block;
+}
+
+.mini-brand-name {
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    white-space: nowrap;
 }
 
 .mini-links { display: flex; gap: 9px; }
